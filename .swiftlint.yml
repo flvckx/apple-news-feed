@@ -1,0 +1,35 @@
+disabled_rules:
+  - force_cast
+  - superfluous_disable_command
+  - weak_delegate
+
+opt_in_rules:
+  - closing_brace
+  - closure_end_indentation
+  - closure_spacing
+  - empty_count
+  - explicit_init
+  - fatal_error_message
+  - opening_brace
+  - operator_usage_whitespace
+  - overridden_super_call
+  - force_try
+  - nimble_operator
+  - number_separator
+  - object_literal
+  - private_outlet
+  - prohibited_super_call
+  - redundant_nil_coalescing
+  - return_arrow_whitespace
+  - sorted_imports
+  - statement_position
+  - switch_case_on_newline
+  - syntactic_sugar
+  - vertical_whitespace
+  - conditional_returns_on_newline
+
+included: # paths to include during linting. `--path` is ignored if present.
+- NewsFeed
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+- Pods
+- vendor
